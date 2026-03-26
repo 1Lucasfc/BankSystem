@@ -1,7 +1,10 @@
 package Enum;
 
-public enum TransitionType {
+public enum TransactionType {
 
-
-
+    DEPOSIT,
+    WITHDRAW,
+    TRANSFER_SENT,
+    TRANSFER_RECEIVED,
+    ACCOUNT_CREATED
 }
